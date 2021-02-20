@@ -7,6 +7,8 @@ const characters = [
 
 const alive = characters.filter((item) => item.health > 0);
 
+// добавил show чтобы линтер не ругался
+
 function show() {
   return alive;
 }
